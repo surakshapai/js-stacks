@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="stacks.js" type="text/javascript"></script>
+
+	</head>
+
+	<body>
+		<h1> Stacks </h1>
+		<br/>
+
+		<h4> Enter the size of the stack you want to create </h4>
+		<input type="text" id="stackSize"> </input>
+		<button class="button" id="createButton"> Create </button>
+
+
+		<h4 id="stackResult"> The stack you created is:  </h4>
+		<h3> Stack operations </h3>
+		<input type="radio" name="stack" id="push"> Push into the stack </input>
+		<input type="radio" name="stack" id="pull"> Pull from the stack </input>
+		
+		<h4 id="pushDesc" style="display:none"> Input the number you want to add to the already created stack </h4>
+		<input type="text" id="pushInput" style="display:none"> </input>
+		<h4 id="pushShowDesc" style="display:none"> The stack after pushing the new element: </h4>
+		<button class="button" id="pushButton" style="display:none"> Add! </button>
+		<h4 id="pushResult"> </h4>
+
+		<button class="button" id="pullButton" style="display:none"> Delete! </button>
+		<h4 id="pullShowDesc" style="display:none"> The stack after pulling from stack: </h4>		
+		<h4 id="pullResult"> </h4>
+
+	</body>
+</html>
